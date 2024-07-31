@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header .logo {
+            width: 100px;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .account-info {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead {
+            background: #007bff;
+            color: white;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\saiga\OneDrive\Desktop\WEB DESIGN (B)\bank.jpeg" alt="Bank Logo" class="logo">
+        <h1>Banking System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#account">Account Overview</a></li>
+                <li><a href="#transactions">Transactions</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Banking System</h2>
+            
+            <p>Manage your account, view transactions, and get support easily.</p>
+        </section>
+        <section id="account">
+            <h2>Account Overview</h2>
+            <div class="account-info">
+                <img src="C:\Users\saiga\OneDrive\Desktop\WEB DESIGN (B)\bank2.jpeg" alt="Account Overview" class="section-image">
+                <h3>Account Holder: Gandrakoti Sai Srikanth</h3>
+                <p>Account Number: 123456789</p>
+                <p>Balance: RS.5,000.00</p>
+            </div>
+        </section>
+        <section id="transactions">
+            <h2>Recent Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-07-01</td>
+                        <td>Deposit</td>
+                        <td>RS.500.00</td>
+                        <td>RS.5,000.00</td>
+                    </tr>
+                    <tr>
+                        <td>2024-07-05</td>
+                        <td>Withdrawal</td>
+                        <td>RS.200.00</td>
+                        <td>RS.4,800.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="support">
+            <h2>Contact Support</h2>
+            <p>Email: hdfc@banking.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Banking System</p>
+    </footer>
+</body>
+</html>
